@@ -1,5 +1,9 @@
 {
+  "name": "socialcoding",
+  "version": "0.0.1-dev",
+  "description": "HTML Presentation Website for Social Coding",
   "dependencies": {
     "reveal.js": "^4.1.0"
-  }
+  },
+  "devDependencies": {}
 }
