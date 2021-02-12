@@ -5,3 +5,6 @@
 # User-specific stuff
 .idea/
 
+# NPM Installation
+node-modules/
+
