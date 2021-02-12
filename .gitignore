@@ -6,5 +6,4 @@
 .idea/
 
 # NPM Installation
-node-modules/
-
+/node_modules/
