@@ -14,12 +14,12 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="../css/reset.css">
-		<link rel="stylesheet" href="../css/reveal.css">
-		<link rel="stylesheet" href="../css/theme/solarized.css" id="theme">
+		<link rel="stylesheet" href="../../css/reset.css">
+		<link rel="stylesheet" href="../../css/reveal.css">
+		<link rel="stylesheet" href="../../css/theme/solarized.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../css/monokai.css" id="highlight-theme">
+		<link rel="stylesheet" href="../../css/monokai.css" id="highlight-theme">
 	</head>
 
 	<body>
@@ -29,20 +29,14 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<img src="../images/java-study-group.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					<img src="../../images/java-study-group.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
 					<h3>How to Program in Java</h3>
 					<p><small>The content in this presentation was created for the Java self study group.</small></p>
 				</section>
 
 				<section>
 					<h2>Java Setup</h2>
-
 					<ul>
-
-						<li>
-							<a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">
-							JDK Download</a>
-						</li>
 						<li>
 							<a href="https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html" target="_blank">
 							JDK Installation Instructions</a>
@@ -53,34 +47,85 @@
 						<li><a href="https://www.eclipse.org/ide/" target="_blank">Eclipse</a></li>
 						<li><a href="https://www.jetbrains.com/idea/download/" target="_blank">InelliJ IDEA</a></li>
 					</ul>
-
+					<p><small style="color:silver;">0</small></p>
 				</section>
 
 				<section>
 					<h2>Week 0</h2>
-					<ul>
-						<li><a href="https://cseducators.stackexchange.com/questions/5023/why-do-we-count-starting-from-zero" target="_blank">Why Week 0?</a></li>
-						<li><a href="https://www.oracle.com/java/moved-by-java/timeline/" target="_blank">
-							History of Java</a>
-						</li>
-
-					</ul>
+					<p><a href="https://www.amazon.com/Java-Program-Early-Objects-Deitel/dp/0134743350" target="_blank">Java How to Program,
+						<br>Early Objects, 11th Edition</a></p>
+					<p><a href="https://cseducators.stackexchange.com/questions/5023/why-do-we-count-starting-from-zero" target="_blank">Why Week 0?</a></p>
+					<p><a href="https://www.oracle.com/java/moved-by-java/timeline/" target="_blank">
+						History of Java</a>
+					</p>
+					<p><small style="color:silver;">0</small></p>
 				</section>
 
 				<section>
 					<h2>Hello World</h2>
+					<pre><code data-trim data-noescape>
+						public class HelloWorld {
 
-					  <pre><code data-trim data-noescape>
-						  public class HelloWorld {
+							public static void main(String[] args) {
+								// Prints "Hello, World" to the terminal window.
+								System.out.println("Hello, World");
+							}
 
-						  	public static void main(String[] args) {
-						  	// Prints "Hello, World" to the terminal window.
-						  	System.out.println("Hello, World");
-						  	}
+					  }
+					</code></pre>
+					<p><small style="color:silver;">0</small></p>
+				</section>
 
-						  }
-					  </code></pre>
+				<section>
+					<h2>Computer Languages</h2>
+					<p>
+						<a href="https://www.cs.mtsu.edu/~xyang/2170/computerLanguages.html" target="_blank">Machine, Assembly & High Level</a>
+					</p>
+					<p>
+						<a href="https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/" target="_blank">Compiled vs Interpreted</a>
+					</p>
+					<p><small style="color:silver;">0</small></p>
+				</section>
 
+
+				<section>
+					<h2>Object Oriented Programming</h2>
+					<small>
+					<p>Real-world objects share two characteristics, state and behavior. </p>
+						<pre><code data-trim data-noescape>
+							public class Cat{
+
+								String name;
+								String color;
+								int age;
+								boolean hungry;
+
+								function meow(){
+								}
+
+								function sleeping(){
+								}
+
+								function eating(){
+								}
+
+							}
+					</code></pre>
+					</small>
+					<p><small style="color:silver;">0</small></p>
+				</section>
+
+				<section>
+					<h2>OOP Timed Study Session</h2>
+					<div>
+						<iframe src="../../clock/index.html" width="100%" height="250px" frameborder="0"></iframe>
+					</div>
+
+					<small>
+
+						<p><a href="https://docs.oracle.com/javase/tutorial/java/concepts/index.html" target="_blank">Lesson: Object-Oriented Programming Concepts</a></p>
+					</small>
+					<p><small style="color:silver;">0</small></p>
 				</section>
 <!--
 				&lt;!&ndash; Example of nested vertical slides &ndash;&gt;
@@ -488,12 +533,12 @@ Reveal.on( 'customevent', function() {
 
 		</div>
 
-		<script src="../js/reveal.js"></script>
-		<script src="../js/plugin/zoom/zoom.js"></script>
-		<script src="../js/plugin/notes/notes.js"></script>
-		<script src="../js/plugin/search/search.js"></script>
-		<script src="../js/plugin/markdown/markdown.js"></script>
-		<script src="../js/plugin/highlight/highlight.js"></script>
+		<script src="../../js/reveal.js"></script>
+		<script src="../../js/plugin/zoom/zoom.js"></script>
+		<script src="../../js/plugin/notes/notes.js"></script>
+		<script src="../../js/plugin/search/search.js"></script>
+		<script src="../../js/plugin/markdown/markdown.js"></script>
+		<script src="../../js/plugin/highlight/highlight.js"></script>
 		<script>
 
 			// Also available as an ES module, see:
